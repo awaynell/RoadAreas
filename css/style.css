@@ -1,0 +1,106 @@
+.col-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 1px #32a1ce;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+    height: 15px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.btnSave {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    background-color: green;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.btnDel {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    background-color: green;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    margin-left: 50%;
+}
+
+.area__all {
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width: 760px) {
+    .form-control {
+        width: 100%;
+        resize: vertical;
+        font-size: 15px;
+        padding: 5px;
+        border-radius: 15px;
+        border: 0;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+        height: 20px;
+        outline: none;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    .card-body {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card-text {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .btnDel {
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+}
