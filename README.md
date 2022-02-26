@@ -1,3 +1,5 @@
 # <p align="center">RoadAreas</p>
 
-## Small web-soft for calculate road areas
+## Небольшая микропрограмма для подсчета площади дорожек
+
+## Написана на Vanilla JS, HTML+CSS
